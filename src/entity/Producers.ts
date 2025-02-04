@@ -12,6 +12,4 @@ export class Producers {
     @ManyToMany(() => Movies, (movies) => movies.producers)
     @JoinTable({name: "movies_producers"})
     movies: Movies[]
-
 }
-

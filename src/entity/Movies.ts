@@ -20,5 +20,4 @@ export class Movies {
 
     @ManyToMany(() => Producers, (producers) => producers.movies)
     producers: Producers[]
-
 }
